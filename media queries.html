@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 106, 0);
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    .box {
+        background-color: rgb(13, 0, 128);
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    .container {
+        flex-direction: column;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <div class="box"></div>
+    <div class="box"></div>
+</div>
+
+</body>
+</html>

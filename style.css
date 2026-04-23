@@ -1,0 +1,9 @@
+h1{
+    /* color:green
+    font -family:cursive;
+    font-sixe :20px;
+    font-weight:900;
+    line-height:1; */
+    text-decoration: wavy;
+    text-overflow: clip;
+}
